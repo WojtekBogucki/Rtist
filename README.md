@@ -6,3 +6,6 @@ Zalety:
 * fajny
 * dobry
 * wspaniały
+
+# Instalacja
+```devtools::instal_github("WojtekBogucki/Rtist")```
