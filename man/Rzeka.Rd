@@ -4,7 +4,7 @@
 \alias{Rzeka}
 \title{Rzeka}
 \usage{
-Rzeka("red")
+Rzeka(bg_color="red")
 }
 \arguments{
 \item{bg_color}{- kolor tła podany jako tekst}

@@ -4,7 +4,7 @@
 #'
 #' @param bg_color - kolor tła podany jako tekst
 #'
-#' @usage Rzeka("red")
+#' @usage Rzeka(bg_color="red")
 #'
 #' @export
 Rzeka <- function(bg_color="gold"){
