@@ -4,10 +4,10 @@
 \alias{Rzeka}
 \title{Rzeka}
 \usage{
-Rzeka(bg_color = "gold")
+Rzeka("red")
 }
 \arguments{
-\item{bg_color}{}
+\item{bg_color}{- kolor tła podany jako tekst}
 }
 \description{
 Funkcja rysująca obraz pt. "Rzeka"
