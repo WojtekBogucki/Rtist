@@ -8,4 +8,4 @@ Zalety:
 * wspaniały
 
 # Instalacja
-```instal_github("https://github.com/WojtekBogucki/Rtist")```
+```devtools::instal_github("WojtekBogucki/Rtist")```
