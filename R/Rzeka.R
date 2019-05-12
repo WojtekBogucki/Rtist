@@ -8,9 +8,7 @@
 #'
 #' @export
 Rzeka <- function(bg_color="gold"){
-  norm20 <- rnorm(20)
-  x <- sort(norm20)
-  plot(x, (1:20)/20, type = "s")
+
   old_bg <- par("bg")
   old_mar <- par("mar")
 
