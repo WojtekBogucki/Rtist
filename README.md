@@ -9,3 +9,5 @@ Zalety:
 
 # Instalacja
 ```devtools::instal_github("WojtekBogucki/Rtist")```
+
+[Jak używać pakietu](https://wojtekbogucki.github.io/Rtist/)
