@@ -1,13 +1,11 @@
-# Rtist
-Wspaniały pakiet do R pomagający tworzyć ładne obrazki :)
+# Rtist - create great images with R
+Package `Rtist` is a tool for making beautiful images. You can create a colorful picture of river based on distribution function.
 
-Zalety:
+##Instalation
 
-* fajny
-* dobry
-* wspaniały
+Instalation from GitHub:
+`devtools::install_github("WojtekBogucki/Rtist")`
 
-# Instalacja
-```devtools::instal_github("WojtekBogucki/Rtist")```
+## More
 
-[Jak używać pakietu](https://wojtekbogucki.github.io/Rtist/)
+[Reference Manual](https://wojtekbogucki.github.io/Rtist/)
