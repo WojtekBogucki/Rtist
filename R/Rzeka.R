@@ -1,10 +1,22 @@
-#' @title Rzeka
+#' @name Rzeka
 #'
-#' @description Funkcja rysująca obraz pt. "Rzeka"
+#' @author Wojciech Bogucki
+#' @author Karol Pysiak
 #'
-#' @param bg_color - kolor tła podany jako tekst
 #'
-#' @usage Rzeka(bg_color="red")
+#' @title Plotting river
+#'
+#' @description This function helps us when we want to see an image of a river. It creates that by plotting
+#' many cumulative normal distributions. We can change the color of a background to any colour we want.
+#'
+#' @param bg_color - background color in form of a text
+#'
+#' @usage Rzeka(bg_color = "gold")
+#'
+#' @examples
+#' Rzeka()
+#' Rzeka(bg_color = "red")
+#' Rzeka(bg_color = "blue")
 #'
 #' @export
 Rzeka <- function(bg_color="gold"){

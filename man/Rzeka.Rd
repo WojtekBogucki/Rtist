@@ -2,13 +2,25 @@
 % Please edit documentation in R/Rzeka.R
 \name{Rzeka}
 \alias{Rzeka}
-\title{Rzeka}
+\title{Plotting river}
 \usage{
-Rzeka(bg_color="red")
+Rzeka(bg_color = "gold")
 }
 \arguments{
-\item{bg_color}{- kolor tła podany jako tekst}
+\item{bg_color}{- background color in form of a text}
 }
 \description{
-Funkcja rysująca obraz pt. "Rzeka"
+This function helps us when we want to see an image of a river. It creates that by plotting
+many cumulative normal distributions. We can change the color of a background to any colour we want.
+}
+\examples{
+Rzeka()
+Rzeka(bg_color = "red")
+Rzeka(bg_color = "blue")
+
+}
+\author{
+Wojciech Bogucki
+
+Karol Pysiak
 }

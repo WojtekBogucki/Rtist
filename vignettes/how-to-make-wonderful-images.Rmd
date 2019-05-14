@@ -16,9 +16,28 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Przykład użycia funkcji Rzeka
+# Examples of usage
+
+You can use this package just by
+
 ```{r}
 library(Rtist)
+```
+
+As defualt bg_color is set `"gold"`, so when we do not input any values we receive a beautiful river surrounded by golden sand.
+
+```{r}
+Rzeka()
+```
+
+When we want another color we just set `bg_color`, i.e. `'orange'`:
+
+```{r}
 Rzeka(bg_color = "orange")
 ```
 
+Event when you set `bg_color` to `'puprple'` it works and even adjusts to given color in some kind of funny way:
+
+```{r}
+Rzeka(bg_color = "purple")
+```
