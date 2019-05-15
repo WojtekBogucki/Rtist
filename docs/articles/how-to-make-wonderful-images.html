@@ -30,7 +30,7 @@
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">Rtist</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9000</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.1</span>
       </span>
     </div>
 
@@ -73,7 +73,7 @@
       <h1>How to make wonderful images with Rtist</h1>
                         <h4 class="author">Wojciech Bogucki, Karol Pysiak</h4>
             
-            <h4 class="date">2019-05-12</h4>
+            <h4 class="date">2019-05-15</h4>
       
       
       <div class="hidden name"><code>how-to-make-wonderful-images.Rmd</code></div>
@@ -82,12 +82,20 @@
 
     
     
-<div id="przykad-uzycia-funkcji-rzeka" class="section level1">
+<div id="examples-of-usage" class="section level1">
 <h1 class="hasAnchor">
-<a href="#przykad-uzycia-funkcji-rzeka" class="anchor"></a>Przykład użycia funkcji Rzeka</h1>
-<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(Rtist)
-<span class="kw"><a href="../reference/Rzeka.html">Rzeka</a></span>(<span class="dt">bg_color =</span> <span class="st">"orange"</span>)</code></pre></div>
-<p><img src="how-to-make-wonderful-images_files/figure-html/unnamed-chunk-1-1.png" width="700"></p>
+<a href="#examples-of-usage" class="anchor"></a>Examples of usage</h1>
+<p>You can use this package just by</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="https://www.rdocumentation.org/packages/base/topics/library">library</a></span>(Rtist)</code></pre></div>
+<p>As defualt bg_color is set <code>"gold"</code>, so when we do not input any values we receive a beautiful river surrounded by golden sand.</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/Rzeka.html">Rzeka</a></span>()</code></pre></div>
+<p><img src="how-to-make-wonderful-images_files/figure-html/unnamed-chunk-2-1.png" width="700"></p>
+<p>When we want another color we just set <code>bg_color</code>, i.e. <code>'orange'</code>:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/Rzeka.html">Rzeka</a></span>(<span class="dt">bg_color =</span> <span class="st">"orange"</span>)</code></pre></div>
+<p><img src="how-to-make-wonderful-images_files/figure-html/unnamed-chunk-3-1.png" width="700"></p>
+<p>Event when you set <code>bg_color</code> to <code>'puprple'</code> it works and even adjusts to given color in some kind of funny way:</p>
+<div class="sourceCode"><pre class="sourceCode r"><code class="sourceCode r"><span class="kw"><a href="../reference/Rzeka.html">Rzeka</a></span>(<span class="dt">bg_color =</span> <span class="st">"purple"</span>)</code></pre></div>
+<p><img src="how-to-make-wonderful-images_files/figure-html/unnamed-chunk-4-1.png" width="700"></p>
 </div>
   </div>
 
@@ -96,7 +104,7 @@
       <h2 class="hasAnchor">
 <a href="#tocnav" class="anchor"></a>Contents</h2>
       <ul class="nav nav-pills nav-stacked">
-<li><a href="#przykad-uzycia-funkcji-rzeka">Przykład użycia funkcji Rzeka</a></li>
+<li><a href="#examples-of-usage">Examples of usage</a></li>
       </ul>
 </div>
       </div>

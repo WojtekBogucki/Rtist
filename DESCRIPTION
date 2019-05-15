@@ -1,6 +1,6 @@
 Package: Rtist
-Title: Fajne Obrazki
-Version: 0.0.0.9000
+Title: Fun images
+Version: 0.0.1
 Authors@R: c(
     person(given = "Wojciech",
            family = "Bogucki",
@@ -9,7 +9,7 @@ Authors@R: c(
            person(given = "Karol",
            family = "Pysiak",
            role = c("aut","ctb")))
-Description: Pakiet robi ładne obrazki
+Description: Package creates beautiful image
 License: GPL
 Encoding: UTF-8
 LazyData: true
